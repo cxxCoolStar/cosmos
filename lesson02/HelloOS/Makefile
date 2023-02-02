@@ -23,6 +23,7 @@ HELLOOS_OBJS += entry.o main.o vgastr.o
 HELLOOS_ELF = HelloOS.elf
 HELLOOS_BIN = HelloOS.bin
 
+
 .PHONY : build clean all link bin
 
 all: clean build link bin
